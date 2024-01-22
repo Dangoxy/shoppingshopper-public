@@ -1,0 +1,140 @@
+.AllItemsPage--mainContainer{
+    display: flex;
+    min-height: 86.5vh;
+    
+}
+
+.AllItemsPage--Sidebar{
+    max-width: 240px;
+    min-width: 240px;
+    min-height: 92vh;
+    background-color: beige;
+    /* background: linear-gradient(90deg, rgb(195, 195, 170) 90%, beige); */
+    color: black;
+    
+    border-right: 2px solid rgb(195, 195, 170);
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+
+.AllItemsPage--Sidebar h2{
+    width: 80%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.329);
+    text-align: center;
+}
+
+.checkboxForFilters{
+    height: 16px;
+    width: 16px;
+}
+
+.AllItemsPage--Sidebar label{
+    font-size: 1.4rem;
+}
+
+.countForFilters{
+    font-size: 1rem;
+    color: rgb(103, 110, 0);
+    
+}
+
+.AllItemsPage--Sidebar h1{
+    margin: 0;
+}
+
+.AllItemsPage--CardContainer{
+    
+    display: grid;
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+    place-items: center;
+    align-items: start;
+    
+    background-color: beige;
+    
+    gap: 20px;
+    grid-template-columns: repeat(1,1fr);
+    
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+    .AllItemsPage--Sidebar{
+        max-width: 160px;
+        min-width: 160px;
+        display: none;
+    }
+    
+    
+}
+
+
+
+@media screen and (min-width: 501px) {
+    .AllItemsPage--CardContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .AllItemsPage--filterListButton{
+     display: none;   
+    }
+}
+@media screen and (min-width: 740px) {
+    .AllItemsPage--CardContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width: 940px) {
+    .AllItemsPage--CardContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (min-width: 1140px) {
+    .AllItemsPage--CardContainer{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media screen and (min-width: 1400px) {
+    .AllItemsPage--CardContainer{
+        grid-template-columns: repeat(5,1fr);
+    }
+}
+@media screen and (min-width: 1620px) {
+    .AllItemsPage--CardContainer{
+        grid-template-columns: repeat(6,1fr);
+    }
+}
+@media screen and (min-width: 1840px) {
+    .AllItemsPage--CardContainer{
+        grid-template-columns: repeat(7,1fr);
+    }
+}
+
+.AllItemsPage--SidebarWithIcon{
+    width: 100%;
+    position: absolute;
+    background-color: beige;
+    /* background: linear-gradient(90deg, rgb(195, 195, 170) 90%, beige); */
+    color: black;
+    
+    border-right: 2px solid rgb(195, 195, 170);
+    border-bottom: 2px solid rgb(195, 195, 170);
+    height: fit-content;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    
+}

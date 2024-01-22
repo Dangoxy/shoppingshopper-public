@@ -1,0 +1,52 @@
+.ItemCardSmall--container{
+    display: flex;
+    box-sizing: border-box;  
+    padding: 10px;
+    
+    gap: 10px;
+    background-color: rgba(255, 126, 126, 0.5);
+    border: 2px solid rgba(160, 0, 0, 0.5);
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: space-between;
+
+    
+    
+}
+
+.ItemCardSmall--container img{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.24);
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.ItemCardSmall--container h4{
+    padding: 0;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
+    
+    
+}
+
+.itemcardsmall--button{
+    font-weight: 600;
+    font-size: 1rem;
+    
+    
+    
+    
+    
+    aspect-ratio: 1/1;
+    height: 25px;
+    line-height: 22px;
+    
+    border-radius: 5px;
+
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    background-color: white;
+}

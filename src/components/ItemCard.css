@@ -1,0 +1,130 @@
+.itemcard--maincontainer{
+    width: 200px;
+    /* border: 2px solid red; */
+    
+}
+
+.itemcard--container:hover {
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    cursor: pointer;
+
+    #greencolor{
+        color: rgb(0, 200, 0);
+        text-shadow: 1px 1px 2px black;
+    }
+
+    
+
+    
+}
+
+.itemcard--container:hover img{
+    transform: scale(1);
+    
+    box-shadow: 0px 0px 0px 0px rgba(92, 31, 29, 0.74);
+}
+
+.itemcard--container{
+    box-sizing: border-box;
+    border: 3px solid rgba(92, 31, 29, 0.74);
+    width: 200px;
+    border-radius: 10px;
+    
+    
+}
+
+.itemcard--container img {
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 190px;
+    
+    background-position:center;
+    background-repeat:no-repeat;
+    
+    
+    
+    box-shadow: 0px 3px 0px 0px rgba(92, 31, 29, 0.74);
+    border-radius: 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.linkStyling{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+.itemcard--container h2,h3{
+    margin: 0;
+    text-shadow: 1px 1px 1px rgba(80, 80, 80, 0.5);
+}
+
+.itemcard--container h2{
+    display: inline-block;
+    
+    align-items: center;
+    
+    height: 40px;
+    width: 175px;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: start;
+    
+    
+    
+    padding: 2px 10px;
+    
+    font-size: 1.4rem;
+    
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.205);
+}
+
+.itemcard--container h3{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+#greencolor{
+    color: rgb(0, 80, 0);
+}
+
+.itemcard--button{
+    font-weight: 600;
+    font-size: 1rem;
+    
+    
+    padding: 10px;
+    aspect-ratio: 1/1;
+    height: 40px;
+    margin: 10px 0;
+    
+    border-radius: 20px;
+
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    background-color: white;
+
+    cursor: pointer;
+}
+
+.itemcard--button:hover{
+    transform: scale(1.05);
+}
+
+.itemcard--button:active{
+    transform: scale(0.98);
+}
+
+.itemcard--pricerating{
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+
+

@@ -1,0 +1,122 @@
+
+.grocItems--maincontainer{
+    margin: 10px;
+}
+.grocItems--container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    justify-content: center;
+    place-items: center;
+    align-items: start;
+
+}
+
+@media screen and (min-width: 675px) {
+    .grocItems--container{
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 875px) {
+    .grocItems--container{
+    grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (min-width: 1075px) {
+    .grocItems--container{
+    grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media screen and (min-width: 1275px) {
+    .grocItems--container{
+    grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media screen and (min-width: 1475px) {
+    .grocItems--container{
+    grid-template-columns: repeat(6, 1fr);
+    }
+}
+@media screen and (min-width: 1675px) {
+    .grocItems--container{
+    grid-template-columns: repeat(7, 1fr);
+    }
+}
+@media screen and (min-width: 1875px) {
+    .grocItems--container{
+    grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+
+.mainContent{
+    
+    background-color: beige;
+    
+}
+
+.mainContent h1{
+    margin: 0;
+}
+
+.appCarouselContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ScrollableItems{
+    
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+
+}
+
+.featuredItemsContainer{
+    margin: 20px;
+}
+
+.categoriesContainerGrid{
+    display: grid;
+
+    justify-content: center;
+    place-items: center;
+    align-items: start;
+    
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media screen and (min-width:700px) {
+    
+    .categoriesContainerGrid{
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    
+}
+@media screen and (min-width:900px) {
+    
+    .categoriesContainerGrid{
+        grid-template-columns: repeat(4,1fr);
+        
+    }
+    
+}
+@media screen and (min-width:1100px) {
+    
+    .categoriesContainerGrid{
+        grid-template-columns: repeat(5,1fr);
+        
+    }
+    
+}
+@media screen and (min-width:1300px) {
+    
+    .categoriesContainerGrid{
+        grid-template-columns: repeat(6,1fr);
+        
+    }
+    
+}

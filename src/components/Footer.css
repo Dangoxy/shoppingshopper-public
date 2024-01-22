@@ -1,0 +1,10 @@
+.footer--container{
+    background-color: beige;
+    height: 80px;
+    width: 100%;
+    border-top: 1px solid rgba(134, 134, 134, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
